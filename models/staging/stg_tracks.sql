@@ -7,11 +7,11 @@ with source as (
 renamed as (
 
     select
-        TrackId     as track_id,
-        Name        as track_name,
-        AlbumId     as album_id,
-        GenreId     as genre_id,
-        Milliseconds as duration_ms
+        "TrackId"     as track_id,
+        "Name"        as track_name,
+        "AlbumId"     as album_id,
+        "GenreId"     as genre_id,
+        "Milliseconds" as duration_ms
     from source
 
 )

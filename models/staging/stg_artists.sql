@@ -7,8 +7,8 @@ with source as (
 renamed as (
 
     select
-        ArtistId    as artist_id,
-        Name        as artist_name
+        "ArtistId"    as artist_id,
+        "Name"        as artist_name
     from source
 
 )
