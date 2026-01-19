@@ -1,8 +1,8 @@
 version: 2
 
 sources:
-  - name: chinook # Nama bebas untuk sumber data Anda
-    database: chinook
+  - name: exp_dbt_airbyte # Nama bebas untuk sumber data Anda
+    database: exp_dbt_airbyte
     schema: public
     tables:
       - name: Album
